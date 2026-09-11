@@ -204,7 +204,7 @@ jobs:
         with:
           repository: ${{ env.GITOPS_REPO }}
           token: ${{ secrets.GITOPS_TOKEN }}
-          path: gitops
+          path: _gitops
 
       - name: Install yq
         run: |
